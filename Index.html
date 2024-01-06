@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI</title>
+    <!-- bootstrap css
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- fontAwesome css-->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> -->
+    <!-- JQuery -->
+    <!-- <script src="https://code.jquery.com/jquery-3.7.1.js"></script> -->
+    <!-- style -->
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="navContainer">
+        <nav class="navbar navbar-expand-lg navColor  main-menu" id="main-menu">
+            <div class="container-fluid">
+                <a class="navbar-brand largeImg" href="#"><img src="Imgs/logo.png" width="100%"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Home
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="iHover nav-item ">
+                            <a class="nav-link " href="#">About</a>
+                        </li>
+                        <li class="iHover nav-item ">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="iHover nav-item ">
+                            <a class="nav-link" href="#">Solution</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="iHover nav-item ">
+                            <a class="nav-link" href="#">Contact </a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex align-items-center " role="search">
+                        <li class="nav-item loginWidth ">
+                            <a class="nav-link" href="#"><i class="fa-regular fa-user"></i> Login</a>
+                        </li>
+                        <button class="writing rounded-5">
+                            <div>
+                                <span>
+                                    <p class="btnDiv">Start Writing</p>
+                                </span>
+                            </div>
+                            <div>
+                                <span>
+                                    <p class="btnDiv">Start Writing </p>
+                                </span>
+                            </div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <main class="d-flex justify-content-center align-items-center position-relative flex-column">
+
+        <!--headLie  -->
+        <div class="container text-center mt-5">
+            <h1>The <span class="h1Color">AI <img src="Imgs/banner-title-vactor.png" class="afterSpan"
+                        alt=""></span>Image Generator Redefining Reality</h1>
+
+            <img class="imgIndex" src="Imgs/banner_bg.jpg" height="100%" width="100%" alt="">
+        </div>
+        <div class="container threeLine mt-4">
+            <div class="row">
+                <div class="col-lg-4"><i class="checkIcon fa-solid fa-circle-check"></i> High-Resolution 4k px images
+                </div>
+                <div class="col-lg-4"><i class="checkIcon fa-solid fa-circle-check"></i> Content generation</div>
+                <div class="col-lg-4"><i class="checkIcon fa-solid fa-circle-check"></i> Royalty free commercial use
+                </div>
+            </div>
+        </div>
+        <div class="twoBtns mt-4 mb-5 row gap-3">
+            <button class="demoBtn  col-6  learn-more">
+                <span class="circleNav" aria-hidden="true">
+                    <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">Watch Demo</span>
+            </button>
+            <button class="btn col-6 ">
+                <svg height="24" width="24" fill="#FFFFFF" viewBox="0 0 24 24" data-name="Layer 1" id="Layer_1"
+                    class="sparkle">
+                    <path
+                        d="M10,21.236,6.755,14.745.264,11.5,6.755,8.255,10,1.764l3.245,6.491L19.736,11.5l-6.491,3.245ZM18,21l1.5,3L21,21l3-1.5L21,18l-1.5-3L18,18l-3,1.5ZM19.333,4.667,20.5,7l1.167-2.333L24,3.5,21.667,2.333,20.5,0,19.333,2.333,17,3.5Z">
+                    </path>
+                </svg>
+
+                <span class="text">Watch Demo</span>
+            </button>
+        </div>
+        <div class="wrapper">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+        </div>
+    </main>
+    <section class="services pb-5 pt-5">
+
+        <div class="container">
+            <h2>
+                Bringing Your Vision to Life - AI Image Generation Service
+            </h2>
+            <div class="row mt-4 gy-3">
+                <div class="col-xl-3 col-lg-4  col-md-6 card">
+                    <div class="colContainer">
+                        <div class="card-title mt-5 d-flex justify-content-between ">
+                            <div class="rounded-circle cardIcon "><i class="innerIcon fa-solid fa-sliders"></i></div>
+                            <p class="cardP">01</p>
+                        </div>
+                        <h3>Customize & Refine</h3>
+                        <p>There are many variations passages Lorem Ipsum available the majority have
+                            suffered.</p>
+                        <i class="mt-2 mb-4 arrowCard  fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4  col-md-6 card">
+                    <div class="colContainer">
+                        <div class="card-title mt-5 d-flex justify-content-between ">
+                            <div class="rounded-circle cardIcon "><i class="innerIcon fa-solid fa-sliders"></i></div>
+                            <p class="cardP">02</p>
+                        </div>
+                        <h3>Lower Cost</h3>
+                        <p>There are many variations passages Lorem Ipsum available the majority have suffered.</p>
+                        <i class="mt-2 mb-4 arrowCard  fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4  col-md-6 card">
+                    <div class="colContainer">
+                        <div class="card-title mt-5 d-flex justify-content-between ">
+                            <div class="rounded-circle cardIcon "><i class="innerIcon fa-solid fa-sliders"></i></div>
+                            <p class="cardP">03</p>
+                        </div>
+                        <h3>Speed & Efficiency</h3>
+                        <p>There are many variations passages Lorem Ipsum available the majority have suffered.</p>
+                        <i class="mt-2 mb-4 arrowCard  fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4  col-md-6 card">
+                    <div class="colContainer">
+                        <div class="card-title mt-5 d-flex justify-content-between ">
+                            <div class="rounded-circle cardIcon "><i class="innerIcon fa-solid fa-sliders"></i>
+                            </div>
+                            <p class="cardP">04</p>
+                        </div>
+                        <h3>Quality & Realism</h3>
+                        <p>There are many variations passages Lorem Ipsum available the majority have suffered.</p>
+                        <i class="mt-2 mb-4 arrowCard  fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <section class="slider position-relative">
+
+        <div class="pt-5 pb-5 container">
+            <h2>Ai Image in Various Style</h2>
+            <div class="row mt-3 g-5">
+                <div class="col-xl-4 col-lg-6 colDiv col-md-12">
+                    <div class="cardSlider imgDiv  hoverDiv img1"></div>
+                </div>
+
+                <div class=" col-xl-4 col-lg-6 colDiv col-md-12">
+                    <div class="cardSlider imgDiv  hoverDiv img2"></div>
+                </div>
+                <div class="col-xl-4 col-lg-6 colDiv col-md-12">
+                    <div class="cardSlider imgDiv  hoverDiv img3"></div>
+                </div>
+
+            </div>
+            <div class="layer ">
+                <div class="w-50 d-flex justify-content-center align-items-center">
+                    <i class="iconSlider left fa-solid fa-arrow-left"></i>
+                    <div class="imgDiv img4"></div>
+                    <i class="iconSlider right fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class=" paintAi">
+        <div class="container pt-5 pb-5">
+            <h2>Painting the Future The Evolution AI Image Generators in Art</h2>
+            <div class="row pt-3 gy-3">
+                <div class="col-xl-4 col-lg-4  col-md-6 ">
+                    <div class=" paintCard position-relative">
+                        <img src="Imgs/painting-2.jpg" height="100%" width="100%" alt="">
+                        <button class="new">new</button>
+                        <p class="cardTitle">The Fusion of Ai Technology and Artistry.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4  col-md-6 ">
+                    <div class=" paintCard position-relative">
+                        <img src="Imgs/painting-3.jpg" height="100%" width="100%" alt="">
+                        <button class="new">new</button>
+                        <p class="cardTitle">Empowering Artists with AI Image Generators.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4  col-md-6 ">
+                    <div class=" paintCard position-relative">
+                        <img src="Imgs/ai-img-4.jpg" height="100%" width="100%" alt="">
+                        <button class="new">new</button>
+                        <p class="cardTitle">AI Image Generators for Stunning Visuals studio</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container pt-5">
+            <div class="row gy-4">
+                <div class="col-xl-3 col-lg-4  col-md-6">
+                    <img src="Imgs/logo.png" width="90%" height="50px">
+                    <p class="h6 pt-3 pb-3">Cras incident lobotids feudist makes viramas sagittas eu valuta.</p>
+                    <div>
+                        <i class="footerIcon fa-brands fa-twitter"></i>
+                        <i class="mx-2 footerIcon fa-brands fa-facebook"></i>
+                        <i class="footerIcon fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4  col-md-6">
+                    <h3>Product</h3>
+                    <p>Chat by CIRCUITRY</p>
+                    <p>CIRCUITRY Reviews</p>
+                    <p>Business Plan</p>
+                    <p>Chrome Extension</p>
+                    <p>50+ Templates</p>
+                </div>
+                <div class="col-xl-3 col-lg-4  col-md-6">
+                    <h3>Solutions</h3>
+                    <p>Ecommerce</p>
+                    <p>SaaS</p>
+                    <p>Marketplaces</p>
+                    <p>Embedded Finance</p>
+                    <p>Platforms</p>
+                </div>
+                <div class="col-xl-3 col-lg-4  col-md-6">
+                    <h3>Feeling Like Subscribe?</h3>
+                    <div class="position-relative">
+                        <input placeholder="Username" class="input" name="text" type="text">
+                        <button class="buttonBtn">Get</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="w-100 footerBorder mt-5 mb-3"></div>
+            <div class="d-flex justify-content-between align-items-center pb-4 pt-2">
+                <div class="footText">
+                    © 2024 CIRCUITRY. All rights reserved.
+                </div>
+                <div class="footText">
+                    Privacy Policy | Term of Service
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script> -->
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="Script.js"></script>
+
+</body>
+
+</html>
